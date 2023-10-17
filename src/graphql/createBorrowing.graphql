@@ -1,0 +1,5 @@
+mutation createBorrowing($data: BorrowingInput!) {
+  createBorrowing(data: $data) {
+    user_id
+  }
+}

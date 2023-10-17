@@ -1,0 +1,25 @@
+query getUser($user_id: Float!) {
+  getUser(user_id: $user_id) {
+    fname
+    lname
+    age
+    gender
+    username
+    password
+    email
+    phone_number
+    Role
+    branch_id
+  }
+}
+# query getBookById($id: Float!) {
+#   getBookById(id: $id) {
+#     id
+#     title
+#     author
+#     genre
+#     publication_year
+#     language
+#     image
+#   }
+# }

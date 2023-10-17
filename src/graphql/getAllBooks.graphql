@@ -1,0 +1,11 @@
+query getAllBooks {
+  getAllBooks {
+    id
+    title
+    author
+    genre
+    publication_year
+    language
+    image
+  }
+}

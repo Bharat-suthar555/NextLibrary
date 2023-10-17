@@ -1,0 +1,20 @@
+query borrowings {
+  borrowings {
+    date_borrowed
+    date_returned
+
+    user {
+      user_id
+      fname
+      lname
+      username
+      email
+      # Include other user fields as needed
+    }
+    book {
+      id
+      title
+      author
+    }
+  }
+}

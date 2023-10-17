@@ -1,0 +1,25 @@
+query getAllUsers {
+  getAllUsers {
+    user_id
+    fname
+    lname
+    email
+    password
+    gender
+    age
+    branch_id
+    phone_number
+  }
+}
+
+# query getAllBooks {
+#   getAllBooks {
+#     id
+#     title
+#     author
+#     genre
+#     publication_year
+#     language
+#     image
+#   }
+# }

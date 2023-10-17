@@ -1,0 +1,11 @@
+query getBookById($id: Float!) {
+  getBookById(id: $id) {
+    id
+    title
+    author
+    genre
+    publication_year
+    language
+    image
+  }
+}
